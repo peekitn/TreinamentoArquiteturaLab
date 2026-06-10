@@ -11,8 +11,6 @@ exports.up = function(knex) {
     table.string('email').notNullable().unique();
 
     table.string('telefone').notNullable();
-
-    table.timestamps(true, true);
   });
 };
 
