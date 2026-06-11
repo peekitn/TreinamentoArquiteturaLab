@@ -29,3 +29,5 @@ module.exports = {
   atualizar,
   deletar
 };
+
+// Lida com o banco de dados, nao faz validação, nem regra de negócio, nem resposta HTTP.

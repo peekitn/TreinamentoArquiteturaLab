@@ -22,3 +22,5 @@ module.exports = [
     handler: ClienteControlador.deletar
   }
 ];
+
+// Define o URL e o método HTTP, não faz regras de negócios e nem acessa o banco.

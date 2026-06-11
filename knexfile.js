@@ -15,3 +15,5 @@ module.exports = {
     }
   }
 };
+
+// Responsável pela configuração do Knex, basicamente, informo ao Knex qual banco usar, qual host, qual porta e onde estão as migrations.

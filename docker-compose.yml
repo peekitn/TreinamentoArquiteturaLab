@@ -45,3 +45,7 @@ services:
     - ./servers.json:/pgadmin4/servers.json
 volumes:
   postgres_data:
+
+
+
+# Serve para orquestrar os containers.

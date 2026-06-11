@@ -1,3 +1,5 @@
+// É onde define a regra de negócio e monta a resposta HTTP. Valida o email, verifica duplicidade, formata dados e decide o status HTTP.	
+
 const ClienteModelo = require('./clientes.modelo');
 
 const listar = async (reply) => {

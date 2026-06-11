@@ -1,3 +1,5 @@
+// Recebe a requisição, chama o serviço e captura erros. Não faz query, não usa knex e nem acessa banco.
+// req representa a reuisicao do cliente e o reply eh o retorno  do cliente
 const ClienteServico = require('./clientes.servico');
 
 const listar = async (req, reply) => {
